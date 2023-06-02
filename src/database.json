@@ -1,0 +1,37 @@
+{
+  "users": {
+    "6285901343807@s.whatsapp.net": {
+      "afkTime": -1,
+      "afkReason": "",
+      "limit": null
+    }
+  },
+  "group": {},
+  "chats": {
+    "6285901343807@s.whatsapp.net": {
+      "mute": false,
+      "antilink": false,
+      "antilinkyt": false,
+      "antilinktt": false,
+      "antivirtex": true
+    },
+    "6285806204707@s.whatsapp.net": {
+      "mute": false,
+      "antilink": false,
+      "antilinkyt": false,
+      "antilinktt": false,
+      "antivirtex": true
+    }
+  },
+  "database": {},
+  "settings": {
+    "6285901343807@s.whatsapp.net": {
+      "status": 0,
+      "autobio": false,
+      "autoread": false
+    }
+  },
+  "donate": {},
+  "others": {},
+  "sticker": {}
+}
