@@ -1,0 +1,55 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Giangplay/Script/main/Orion_Library_PE_V2.lua')))()
+local Window = OrionLib:MakeWindow({Name = "RH Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "RH Hub"})
+local Tab = Window:MakeTab({
+	Name = "Slap Battles",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Epic"
+})
+OrionLib:MakeNotification({
+	Name = "Welcome",
+	Content = "Private Hub By Raffyrh",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+Tab:AddButton({
+	Name = "Giang Hub (Best)",
+	Callback = function()
+      		loadstring(game:HttpGet(("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/Slap_Battles.lua"),true))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Auto Bob",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/zr6SjC6x"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Auto Slapple/Candy",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Giangplay/Slap_Battles/main/AutoFarm%20Candy%20Slapple.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Avatar Utility",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastefy.app/1mtq82cl/raw"))()
+  	end    
+})
+local Credit = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Credit:AddSection({
+	Name = "Made by yours truly, Raffyrh"
+})
+Credit:AddButton({
+	Name = "Destroy Gui",
+	Callback = function()
+      		OrionLib:Destroy()
+  	end    
+})
+OrionLib:Init()
