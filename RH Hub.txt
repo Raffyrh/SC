@@ -2,7 +2,7 @@ local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gia
 local Window = OrionLib:MakeWindow({Name = "RH Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "RH Hub"})
 local Tab = Window:MakeTab({
 	Name = "Slap Battles",
-	Icon = "rbxassetid://4483345998",
+	Icon = "rbxassetid://15315284749",
 	PremiumOnly = false
 })
 local Section = Tab:AddSection({
