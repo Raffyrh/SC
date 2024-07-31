@@ -105,7 +105,7 @@ TOGGLE["Ui"] = Instance.new("ScreenGui", game.Players.LocalPlayer.PlayerGui)
 TOGGLE["DaIcon"] = Instance.new("ImageButton", TOGGLE["Ui"])
 TOGGLE["das"] = Instance.new("UICorner", TOGGLE["DaIcon"]);
 
-TOGGLE["Ui"].Name = "ToggleUi"
+TOGGLE["Ui"].Name = "Lolok"
 TOGGLE["Ui"].ResetOnSpawn = false
 
 TOGGLE["DaIcon"].Size = UDim2.new(0,45,0,45)
